@@ -5,7 +5,6 @@
 // This program calculates the area and perimeter of a rectangle
 //    with radius inputted by the user
 
-#include <cmath>
 #include <iostream>
 
 int main() {
@@ -15,18 +14,15 @@ int main() {
     int area;
     int perimeter;
 
-
     // input
     std::cout << "Enter length of the rectangle (mm): ";
     std::cin >> length;
     std::cout << "Enter width of the rectangle (mm): ";
     std::cin >> width;
 
-
     // process
     area = length * width;
     perimeter = 2 *(length + width);
-
 
     // output
     std::cout << "" << std:: endl;
